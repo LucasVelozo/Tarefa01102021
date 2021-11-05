@@ -1,0 +1,50 @@
+using  System ;
+usando o  sistema . Coleções . Genérico ;
+usando o  sistema . Linq ;
+usando o  sistema . Texto ;
+
+namespace  projSomaPOO
+{
+    classe  Soma
+    {
+        # region  atributos
+        private  int  num1 ;
+        private  int  num2 ;
+         resultado int  privado ;
+        # endregion
+
+        # região  métodos de interface (Setter's e Getter's)
+        public  void  setNum1 ( int  n )
+        {
+            num1  =  n ;
+        }
+
+        public  void  setNum2 ( int  n )
+        {
+            num2  =  n ;
+        }
+
+        public  int  getNum1 ()
+        {
+            return  num1 ;
+        }
+
+        public  int  getNum2 ()
+        {
+            return  num2 ;
+        }
+
+        public  int  getResultado ()
+        {
+            return  resultado ;
+        }
+        # endregion
+
+        # região  modos modificados
+        public  void  calcular ()
+        {
+            resultado  =  num1  +  num2 ;
+        }
+        # endregion
+    }
+}
